@@ -10,7 +10,7 @@ This program utilizes multiple threads, which could cause issues for resource co
 ## How to use:
 - Type in the subnet that you want (e.g. 192.168.1.0/24)
 - Then it will go to work logged all connected devices
-- After it scans (using multi-thread for speed), it creates a .xlsv file for Excel
+- After it scans (using multi-thread for speed), it creates a .txt file on the desktop
 - This file will generate on the desktop of the user running the program
 
 ## Future Features:
