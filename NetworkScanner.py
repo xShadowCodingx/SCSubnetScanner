@@ -50,7 +50,7 @@ def returnOnlySubnet(subnet):
 
 # Generate desktop file and give date/time in file name
 def generateDesktopTxt(clients, root, ttk, selectedSubnet):
-    desktopPath = os.path.join(os.path.expanduser("~"), "\\Desktop")
+    desktopPath = os.path.join(os.path.expanduser("~"), "Desktop")
     with open (desktopPath + f"\\Desktop\\{selectedSubnet}_{datetime.datetime.now().strftime("%m-%d-%Y.%H-%M-%S")}_Scan-Output.txt", "w") as file:
         for client in clients:
             file.write(
